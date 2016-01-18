@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.kobra.custompack.installer" name="KOBRA H24 CUSTOM PACK INSTALLER" version="1.0.0" provider-name="KOBRA BUILDS">
+<addon id="plugin.program.kobra.custompack.installer" name="KOBRA H24 CUSTOM PACK INSTALLER" version="1.0.1" provider-name="KOBRA BUILDS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
