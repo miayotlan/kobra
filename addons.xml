@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.kobra.custompack.installer" name="KOBRA H24 CUSTOM PACK INSTALLER" version="1.0.1" provider-name="KOBRA BUILDS">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">KOBRA H24 CUSTOM PACK INSTALLER</summary>
-    <description lang="en">Welcome To Kobra h24 Custom Pack Installer. This installer will allow you to download and install custom packs for Kobra h24 build ONLY!</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.kobrawizard" name="Kobra Wizard" version="4.1" provider-name="Kobra Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
