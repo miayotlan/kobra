@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.kobrawizard" name="Kobra Wizard" version="4.5" provider-name="Kobra Builds">
+<addon id="plugin.video.kobrawizard" name="Kobra Wizard" version="5.0" provider-name="Kobra Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
