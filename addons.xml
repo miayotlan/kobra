@@ -27,6 +27,7 @@
 <addon id="plugin.program.wizards.sleeve" name="THE WIZARDS SLEEVE" version="1.0.0" provider-name="KOBRA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video executable</provides>
