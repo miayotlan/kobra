@@ -4,3 +4,5 @@ url change
 v-1.0.2 
 Added catorgories Apps, Emulators, Roms, Adult apps. 
 Added Apps info before download. 
+v-1.0.3
+Added video tutorials.
