@@ -6,3 +6,5 @@ Added catorgories Apps, Emulators, Roms, Adult apps.
 Added Apps info before download. 
 v-1.0.3
 Added video tutorials.
+v-1.0.4
+Set Views

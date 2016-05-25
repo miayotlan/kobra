@@ -40,6 +40,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.kobra.tube"
+	name="Kobra Tube"
+	version="1.0.0"
+	provider-name="Kobra">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kobra Tube</summary>
+    <description lang="en">The Official YouTube Channel For Kobra</description>
+    <platform>all</platform>
+    <forum>https://www.facebook.com/groups/KodiCustomBuilds/</forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.kobrawizard" name="Kobra Wizard" version="5.3" provider-name="Kobra Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -56,7 +77,7 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
 </addon>
 
-<addon id="program.kobra.app.installer" name="Kobra App Installer" version="1.0.3" provider-name="Kobra">
+<addon id="program.kobra.app.installer" name="Kobra App Installer" version="1.0.4" provider-name="Kobra">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
