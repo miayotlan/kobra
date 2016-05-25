@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.kobrawizard" name="Kobra Wizard" version="5.3" provider-name="Kobra Builds">
+<addon id="plugin.video.kobrawizard" name="Kobra Wizard" version="6.0" provider-name="Kobra Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
+	<import addon="plugin.program.kobra.notifications" />
+    <import addon="plugin.video.kobra.tube" />
+	<import addon="program.kobra.app.installer" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Kobra Wizard</summary>
-    <description lang="en">Kobra Wizard provides easy access to Kobra Builds at the click of a button. No addons are distributed with Kobra Builds. You will be asked if you would like to download each addons as you click on main menu and sub menu items.
+    <description lang="en">Kobra Wizard provides easy access to Kobra Builds at the click of a button. The wizard also provides Kobra custom packs to enable the user to customize the build to their own taste. Kobra App Installer and Kobra Tube is also included in the Kobra Wizard. No addons are distributed with Kobra Builds. You will be asked if you would like to download each addons as you click on main menu and sub menu items.
 Thanks to all Devs who have contributed to this project!</description>
     <platform>all</platform>
   </extension>
