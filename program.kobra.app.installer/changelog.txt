@@ -1,10 +1,14 @@
-Initial release V-1.0.0
-v-1.0.1 
+V-1.0.0 Initial release 
+V-1.0.1 
 url change
 v-1.0.2 
 Added catorgories Apps, Emulators, Roms, Adult apps. 
 Added Apps info before download. 
-v-1.0.3
+
+V-1.0.3 
 Added video tutorials.
-v-1.0.4
+
+V-1.0.4 
 Set Views
+V-1.0.5 Test
+V-1.0.6 Removed the use of es file explorer. Added apk install code to install apks from inside Kodi.
