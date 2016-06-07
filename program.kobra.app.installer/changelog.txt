@@ -12,3 +12,6 @@ V-1.0.4
 Set Views
 V-1.0.5 Test
 V-1.0.6 Removed the use of es file explorer. Added apk install code to install apks from inside Kodi.
+V-1.0.7 Cosmetic changes.
+V-1.0.8 Cosmetic changes.
+V-1.0.9 Cosmetic changes.

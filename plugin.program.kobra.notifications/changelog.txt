@@ -1,3 +1,9 @@
+[B]1.0.4[/B]
+- Cosmetic changes
+
+[B]1.0.3[/B]
+- Cosmetic changes
+
 [B]1.0.2[/B]
 - Add temporary fix to stop twitter search error
 

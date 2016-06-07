@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.kobra.notifications" version="1.0.3"
-       name="Notifications" provider-name="tvaddons.ag">
+<addon id="plugin.program.kobra.notifications" version="1.0.4"
+       name="Notifications" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS & TV ADDONS[/B][/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.addon.common" optional="true" />
@@ -13,7 +13,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
   	<summary>KOBRA NEWS AND UPDATES</summary>
-  	<description>Receive Important Kobra news and update notifications.</description>
+  	<description>[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]NOTIFICATIONS[/B][/COLOR] Receive Important Kobra news and update notifications.</description>
   	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
@@ -24,7 +24,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.wizards.sleeve" name="[COLOR red][B][I]KOBRA[/I][/COLOR][COLOR grey] WIZARDS SLEEVE[/B][/COLOR]" version="1.0.2" provider-name="Kobra Builds">
+<addon id="plugin.program.wizards.sleeve" name="[COLOR red][B][I]KOBRA[/I][/COLOR][COLOR grey] WIZARDS SLEEVE[/B][/COLOR]" version="1.0.3" provider-name="[COLOR red][B][I]KOBRA[/I][/COLOR][COLOR grey] BUILDS[/B][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -34,16 +34,16 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Kobra Wizards Sleeve</summary>
-    <description lang="en">[COLOR red][I]KOBRA[/I][/COLOR][COLOR grey] WIZARDS SLEEVE[/COLOR]. Here you will find some of the most popular wizards all in one place. If you would like your wizard adding please get it touch via our Facebook group. [COLOR dodgerblue]https://www.facebook.com/groups/KodiCustomBuilds/[/COLOR]</description>
+    <description lang="en">[COLOR red][B][I]KOBRA[/I][/COLOR][COLOR grey] WIZARDS SLEEVE[/B][/COLOR]. Here you will find some of the most popular wizards all in one place. If you would like your wizard adding please get it touch via our Facebook group. [COLOR dodgerblue]https://www.facebook.com/groups/KodiCustomBuilds/[/COLOR]</description>
 	<website>https://www.facebook.com/groups/KodiCustomBuilds/</website>
     <platform>all</platform>
   </extension>
 </addon>
 
 <addon id="plugin.video.kobra.tube"
-	name="Kobra Tube"
-	version="1.0.0"
-	provider-name="Kobra">
+	name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]TUBE[/B][/COLOR]"
+	version="1.0.1"
+	provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -54,14 +54,14 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Kobra Tube</summary>
-    <description lang="en">The Official YouTube Channel For Kobra</description>
+    <description lang="en">[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]TUBE[/B][/COLOR]is the official YouTube channel for Kobra Builds. Here you can find tutorials and preview videos.</description>
     <platform>all</platform>
     <forum>https://www.facebook.com/groups/KodiCustomBuilds/</forum>
     <website></website>
   </extension>
 </addon>
 
-<addon id="plugin.video.kobrawizard" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]WIZARD[/B][/COLOR]" version="6.3" provider-name="Kobra Builds">
+<addon id="plugin.video.kobrawizard" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]WIZARD[/B][/COLOR]" version="6.4" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -80,7 +80,7 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
 </addon>
 
-<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.0.8" provider-name="Kobra">
+<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.0.9" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -90,21 +90,21 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Kobra App Instaler.</summary>
-    <description lang="en">Kobra App Installer. Browse through the most popular Android apps on the market and install them with ease from within Kodi. The author of this addon takes no responsibilty for any content viewed via these applications or any damage caused by use of of these applications. Big thanks to ][NT3L][G3NC][.</description>
+    <description lang="en">[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]. Browse through the most popular Android apps on the market and install them with ease from within Kodi. The author of this addon takes no responsibilty for any content viewed via these applications or any damage caused by use of of these applications. Big thanks to ][NT3L][G3NC][.</description>
 	<website></website>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="repository.kobra" name="Kobra Repo" version="1.0.1" provider-name="KCB">
-	<extension point="xbmc.addon.repository" name="Kobra Repo">
+<addon id="repository.kobra" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]" version="1.0.2" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]">
 		<info compressed="false">https://raw.github.com/Barroni1977/kobra/master/addons.xml</info>
 		<checksum>https://raw.github.com/Barroni1977/kobra/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.github.com/Barroni1977/kobra/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Kobra Repository</summary>
-		<description>Home of the Kobra wizard</description>
+		<description>[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY.[/B][/COLOR] The home of Kobra Builds Add-ons</description>
 		<platform>all</platform>
 	</extension>
 </addon>

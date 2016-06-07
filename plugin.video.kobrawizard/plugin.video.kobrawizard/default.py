@@ -206,6 +206,7 @@ def ICONPACKINSTALLER(name,url,description):
     addonfolder = xbmc.translatePath(os.path.join('special://','home'))
     time.sleep(2)
     dp.update(0,"", "EXTRACTING YOUR ICONS...PLEASE WAIT...")
+    time.sleep(2)
     print '======================================='
     print addonfolder
     print '======================================='
@@ -619,7 +620,7 @@ def deletecachefiles(url):
             if file_count > 0:
     
                 dialog = xbmcgui.Dialog()
-                if dialog.yesno("Delete Simple Downloader Cache Files", str(file_count) + " files found", "Do you want to delete them?"):
+                if dialog.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]DELETE SIMPLE DOWNLOADER CACHE FILES[/B][/COLOR]", str(file_count) + " FILES FOUND", "DO YOU WANT TO DELETE THEM?"):
                 
                     for f in files:
                         os.unlink(os.path.join(root, f))
@@ -640,7 +641,7 @@ def deletecachefiles(url):
             if file_count > 0:
     
                 dialog = xbmcgui.Dialog()
-                if dialog.yesno("Delete ITV Cache Files", str(file_count) + " files found", "Do you want to delete them?"):
+                if dialog.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]DELETE ITV CACHE FILES[/B][/COLOR]", str(file_count) + " FILES FOUND", "DO YOU WANT TO DELETE THEM?"):
                 
                     for f in files:
                         os.unlink(os.path.join(root, f))
@@ -661,7 +662,7 @@ def deletecachefiles(url):
             if file_count > 0:
     
                 dialog = xbmcgui.Dialog()
-                if dialog.yesno("Delete TEMP dir Cache Files", str(file_count) + " files found", "Do you want to delete them?"):
+                if dialog.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]DELETE TEMP DIR CACHE FILES[/B][/COLOR]", str(file_count) + " FILES FOUND", "DO YOU WANT TO DELETE THEM?"):
                 
                     for f in files:
                         os.unlink(os.path.join(root, f))
