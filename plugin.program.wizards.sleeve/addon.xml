@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.wizards.sleeve" name="THE WIZARDS SLEEVE" version="1.0.1" provider-name="KOBRA">
+<addon id="plugin.program.wizards.sleeve" name="[COLOR red][B][I]KOBRA[/I][/COLOR][COLOR grey] WIZARDS SLEEVE[/B][/COLOR]" version="1.0.2" provider-name="Kobra Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -8,8 +8,8 @@
         <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">THE WIZARDS SLEEVE</summary>
-    <description lang="en">Welcome to The Wizards Sleeve. Here you will find some of the most popular wizards all in one place.</description>
+    <summary lang="en">Kobra Wizards Sleeve</summary>
+    <description lang="en">[COLOR red][I]KOBRA[/I][/COLOR][COLOR grey] WIZARDS SLEEVE[/COLOR]. Here you will find some of the most popular wizards all in one place. If you would like your wizard adding please get it touch via our Facebook group. [COLOR dodgerblue]https://www.facebook.com/groups/KodiCustomBuilds/[/COLOR]</description>
 	<website>https://www.facebook.com/groups/KodiCustomBuilds/</website>
     <platform>all</platform>
   </extension>

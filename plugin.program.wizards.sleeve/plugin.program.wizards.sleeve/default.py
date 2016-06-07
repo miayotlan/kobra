@@ -14,8 +14,8 @@ USER_AGENT = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/
 base='http://kobracustombuilds.com'
 ADDON=xbmcaddon.Addon(id='plugin.program.wizards.sleeve')
 dialog = xbmcgui.Dialog()    
-VERSION = "1.0.0"
-PATH = "THE WIZARDS SLEEVE"
+VERSION = "1.0.3"
+PATH = "Kobra Wizards Sleeve"
             
 
     
@@ -35,14 +35,14 @@ def OPEN_URL(url):
     response.close()
     return link
 	
-def RELOAD():
-    xbmc.executebuiltin("LoadProfile(Master user,)")
+#def RELOAD():
+    #xbmc.executebuiltin("LoadProfile(Master user,)")
     
     
 def wizard(name,url,description):
     path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
     dp = xbmcgui.DialogProgress()
-    dp.create("THE WIZARDS SLEEVE","[COLOR=red]DOWNLOADING YOUR WIZARD...[/COLOR]",'', 'PLEASE WAIT...')
+    dp.create("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]WIZARDS SLEEVE[/B][/COLOR]","DOWNLOADING YOUR WIZARD...",'', 'PLEASE WAIT...')
     lib=os.path.join(path, name+'.zip')
     try:
        os.remove(lib)
@@ -51,14 +51,15 @@ def wizard(name,url,description):
     downloader.download(url, lib, dp)
     addonfolder = xbmc.translatePath(os.path.join('special://','home/addons'))
     time.sleep(2)
-    dp.update(0,"[COLOR=red]EXTRACTING FILES[/COLOR]")
+    dp.update(0,"EXTRACTING FILES...")
+    time.sleep(2)
     print '======================================='
     print addonfolder
     print '======================================='
     extract.all(lib,addonfolder,dp)
     xbmc.executebuiltin( 'UpdateLocalAddons' )
     xbmc.executebuiltin( 'UpdateAddonRepos' )
-    dialog.ok("[COLOR grey2][B]WIZARD INSTALLATION  COMPLETE[/B][/COLOR]", '                            CLICK [COLOR grey][B]OK[/B][/COLOR] TO CONTINUE.', '                       ')
+    dialog.ok("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]WIZARDS SLEEVE[/B][/COLOR]", 'WIZARD INSTALLATION COMPLETE', 'PLEASE PRESS OK TO CONTINUE')
 
         
 
