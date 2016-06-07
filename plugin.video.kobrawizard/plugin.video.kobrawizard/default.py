@@ -34,8 +34,10 @@ HOME = xbmc.translatePath('special://home/')
 ADDONS = os.path.join(HOME,     'addons')
 addon_id = 'plugin.video.kobrawizard'
 ADDON = xbmcaddon.Addon(id=addon_id)
-AddonID='plugin.video.kobrawizard'
-AddonTitle="[COLOR grey2][B]KOBRA WIZARD[/B][/COLOR]"
+AddonID = 'plugin.video.kobrawizard'
+AddonTitle = "[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]WIZARD[/B][/COLOR]"
+AddonTitle2 = "[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]DELETE PACKAGE FILES[/B][/COLOR]"
+AddonTitle3 = "[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]FILE CLEANER[/B][/COLOR]"
 dialog = xbmcgui.Dialog()
 net = Net()
 U = ADDON.getSetting('User')
@@ -151,10 +153,10 @@ def MAINTENANCE():
 	
 def BACKGROUNDINSTALLER(name,url,description):
    confirm=xbmcgui.Dialog()
-   if confirm.yesno("[COLOR grey2][B]BACKGROUND PACK INSTALLER[/B][/COLOR]",description,"","WOULD YOU LIKE TO INSTALL THIS BACKGROUND PACK?","NO, GO BACK","YES, INSTALL"):
+   if confirm.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BACKGROUND PACK INSTALLER[/B][/COLOR]",description,"FOR USE ON KOBRA H24 BUILD ONLY!","WOULD YOU LIKE TO INSTALL THIS BACKGROUND PACK?","NO, GO BACK","YES, INSTALL"):
     path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR grey2][B]KOBRA BACKGROUND PACK INSTALLER[/B][/COLOR]","DOWNLOADING YOUR BACKGROUNDS... ",'', 'PLEASE WAIT...')
+    dp.create("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BACKGROUND PACK INSTALLER[/B][/COLOR]","DOWNLOADING YOUR BACKGROUNDS... ",'', 'PLEASE WAIT...')
     lib=os.path.join(path, name+'.zip')
     try:
        os.remove(lib)
@@ -169,7 +171,7 @@ def BACKGROUNDINSTALLER(name,url,description):
     print '======================================='
     extract.all(lib,addonfolder,dp)
     CLEANUP()
-    dialog.ok("[COLOR grey2][B]BACKGROUND  PACK  INSTALLATION  COMPLETE[/B][/COLOR]", '                  BROUGHT TO YOU BY KOBRA BUILDS.', '                       CLICK [COLOR grey2][B]OK[/B][/COLOR] TO RELOAD THE SKIN.')
+    dialog.ok("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BACKGROUND PACK INSTALLATION COMPLETE[/B][/COLOR]]", '                  BROUGHT TO YOU BY KOBRA BUILDS.', '                       CLICK [COLOR grey][B]OK[/B][/COLOR] TO RELOAD THE SKIN.')
     xbmc.executebuiltin('UnloadSkin()')
     xbmc.executebuiltin('ReloadSkin()')
 	
@@ -191,10 +193,10 @@ def BACKGROUNDWIZARD():
 
 def ICONPACKINSTALLER(name,url,description):
    confirm=xbmcgui.Dialog()
-   if confirm.yesno("[COLOR grey2][B]ICON PACK INSTALLER[/B][/COLOR]",description,"","WOULD YOU LIKE TO INSTALL THIS ICON PACK?","NO, GO BACK","YES, INSTALL"):
+   if confirm.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]ICON PACK INSTALLER[/B][/COLOR]",description,"FOR USE ON KOBRA H24 BUILD ONLY!","WOULD YOU LIKE TO INSTALL THIS ICON PACK?","NO, GO BACK","YES, INSTALL"):
     path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR grey2][B]KOBRA ICON PACK INSTALLER[/B][/COLOR]","DOWNLOADING YOUR ICONS... ",'', 'PLEASE WAIT...')
+    dp.create("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]ICON PACK INSTALLER[/B][/COLOR]","DOWNLOADING YOUR ICONS... ",'', 'PLEASE WAIT...')
     lib=os.path.join(path, name+'.zip')
     try:
        os.remove(lib)
@@ -209,7 +211,7 @@ def ICONPACKINSTALLER(name,url,description):
     print '======================================='
     extract.all(lib,addonfolder,dp)
     CLEANUP()
-    dialog.ok("[COLOR grey2][B]ICON  PACK  INSTALLATION  COMPLETE[/B][/COLOR]", '                  BROUGHT TO YOU BY KOBRA BUILDS.', '                       CLICK [COLOR grey2][B]OK[/B][/COLOR] TO RELOAD THE SKIN.')
+    dialog.ok("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]ICON PACK INSTALLATION COMPLETE[/B][/COLOR]", '                  BROUGHT TO YOU BY KOBRA BUILDS.', '                       CLICK [COLOR grey][B]OK[/B][/COLOR] TO RELOAD THE SKIN.')
     xbmc.executebuiltin('UnloadSkin()')
     xbmc.executebuiltin('ReloadSkin()')
 	
@@ -219,10 +221,10 @@ def ICONPACKINSTALLER(name,url,description):
 	
 def THEMEINSTALLER(name,url,description):
    confirm=xbmcgui.Dialog()
-   if confirm.yesno("[COLOR grey2][B]THEME INSTALLER[/B][/COLOR]",description,"","WOULD YOU LIKE TO INSTALL THIS THEME?","NO, GO BACK","YES, INSTALL"):
+   if confirm.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]THEME INSTALLER[/B][/COLOR]",description,"FOR USE ON KOBRA H24 BUILD ONLY!","WOULD YOU LIKE TO INSTALL THIS THEME?","NO, GO BACK","YES, INSTALL"):
     path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR grey2][B]THEME INSTALLER[/B][/COLOR]","DOWNLOADING YOUR THEME... ",'', 'PLEASE WAIT...')
+    dp.create("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]THEME INSTALLER[/B][/COLOR]","DOWNLOADING YOUR THEME... ",'', 'PLEASE WAIT...')
     lib=os.path.join(path, name+'.zip')
     try:
        os.remove(lib)
@@ -237,7 +239,7 @@ def THEMEINSTALLER(name,url,description):
     print '======================================='
     extract.all(lib,addonfolder,dp)
     CLEANUP()
-    dialog.ok("[COLOR grey2][B]THEME  INSTALLATION  COMPLETE[/B][/COLOR]", '                  BROUGHT TO YOU BY KOBRA BUILDS.', '                       CLICK [COLOR grey2][B]OK[/B][/COLOR] TO RELOAD THE SKIN.')
+    dialog.ok("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]THEME INSTALLATION COMPLETE[/B][/COLOR]", '                  BROUGHT TO YOU BY KOBRA BUILDS.', '                       CLICK [COLOR grey][B]OK[/B][/COLOR] TO RELOAD THE SKIN.')
     xbmc.executebuiltin('UnloadSkin()')
     xbmc.executebuiltin('ReloadSkin()')
 	
@@ -271,10 +273,10 @@ def ANDROIDAPPSINSTALLER(name,url,description):
 	
 def MICELLANEOUSICONPACKINSTALLER(name,url,description):
    confirm=xbmcgui.Dialog()
-   if confirm.yesno("[COLOR grey2][B]ICON PACK INSTALLER[/B][/COLOR]",description,"","WOULD YOU LIKE TO INSTALL THIS ICON PACK?","NO, GO BACK","YES, INSTALL"):
+   if confirm.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]ICON PACK INSTALLER[/B][/COLOR]",description,"FOR USE ON KOBRA H24 BUILD ONLY!","WOULD YOU LIKE TO INSTALL THIS ICON PACK?","NO, GO BACK","YES, INSTALL"):
     path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR grey2][B]ICON PACK INSTALLER[/B][/COLOR]","DOWNLOADING YOUR ICONS... ",'', 'PLEASE WAIT...')
+    dp.create("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]ICON PACK INSTALLER[/B][/COLOR]","DOWNLOADING YOUR ICONS... ",'', 'PLEASE WAIT...')
     lib=os.path.join(path, name+'.zip')
     try:
        os.remove(lib)
@@ -289,7 +291,7 @@ def MICELLANEOUSICONPACKINSTALLER(name,url,description):
     print '======================================='
     extract.all(lib,addonfolder,dp)
     CLEANUP()
-    dialog.ok("[COLOR grey2][B]ICON  PACK  INSTALLATION  COMPLETE[/B][/COLOR]", '                  BROUGHT TO YOU BY KOBRA BUILDS.', '                       CLICK [COLOR grey2][B]OK[/B][/COLOR] TO RELOAD THE SKIN.')
+    dialog.ok("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]ICON PACK INSTALLATION COMPLETE[/B][/COLOR]", '                  BROUGHT TO YOU BY KOBRA BUILDS.', '                       CLICK [COLOR grey][B]OK[/B][/COLOR] TO RELOAD THE SKIN.')
     xbmc.executebuiltin('UnloadSkin()')
     xbmc.executebuiltin('ReloadSkin()')
 	
@@ -394,18 +396,17 @@ def APPINSTALLER():
     xbmc.executebuiltin("RunAddon(program.kobra.app.installer)")
 
         
-    
-
+		
 #####################
 ### BUILD INSTALL ###
 #####################
 
 def WIZARD(name,url,description):
    confirm=xbmcgui.Dialog()
-   if confirm.yesno("[COLOR grey2][B]KOBRA INSTALLER[/B][/COLOR]",name,"","","NO, GO BACK","YES, INSTALL"):
+   if confirm.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]WIZARD INSTALLER[/B][/COLOR]",name,"WOULD YOU LIKE TO INSTALL?","","NO, GO BACK","YES, INSTALL"):
     path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR grey2][B]KOBRA INSTALLER[/B][/COLOR]","DOWNLOADING YOUR BUILD ",'', 'PLEASE WAIT...')
+    dp.create("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]WIZARD INSTALLER[/B][/COLOR]","DOWNLOADING YOUR BUILD ",'', 'PLEASE WAIT...')
     lib=os.path.join(path, name+'.zip')
     try:
        os.remove(lib)
@@ -421,7 +422,7 @@ def WIZARD(name,url,description):
     extract.all(lib,addonfolder,dp)
     dialog = xbmcgui.Dialog()
     CLEANUP()
-    dialog.ok("KOBRA WIZARD", "TO SAVE CHANGES YOU NOW NEED TO FORCE CLOSE KODI, PRESS OK TO CLOSE KODI")
+    dialog.ok("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]WIZARD INSTALLER[/B][/COLOR]", "TO SAVE CHANGES YOU NOW NEED TO FORCE CLOSE KODI, PRESS OK TO CLOSE KODI")
     killxbmc()
 
 
@@ -440,13 +441,13 @@ def DELETEPACKAGES():
 				file_count += len(files)
 				# Count files and give option to delete
 				if file_count > 0:
-					if dialog.yesno("DELETE PACKAGE FILES", str(file_count) + " FILES FOUND", "WOULD YOU LIKE TO DELETE THEM?", nolabel='NO, CANCEL',yeslabel='YES, REMOVE'):
+					if dialog.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]DELETE PACKAGE FILES[/B][/COLOR]", str(file_count) + " FILES FOUND", "WOULD YOU LIKE TO DELETE THEM?", nolabel='NO, CANCEL',yeslabel='YES, REMOVE'):
 						for f in files:	os.unlink(os.path.join(root, f))
 						for d in dirs: shutil.rmtree(os.path.join(root, d))
-						dialog.ok(AddonTitle,'CLEAR PACKAGES: [COLOR green] SUCCESS[/COLOR]!')
-				else: dialog.ok(AddonTitle,'CLEAR PACKAGES: [COLOR red]NONE FOUND[/COLOR]!')
-		except: dialog.ok(AddonTitle,'CLEAR PACKAGES: [COLOR red] ERROR[/COLOR]!')
-	else: dialog.ok(AddonTitle,'CLEAR PACKAGES: [COLOR red] NONE FOUND[/COLOR]!')
+						dialog.ok(AddonTitle2,'CLEAR PACKAGES: [COLOR green] SUCCESS[/COLOR]!')
+				else: dialog.ok(AddonTitle2,'CLEAR PACKAGES: [COLOR red]NONE FOUND[/COLOR]!')
+		except: dialog.ok(AddonTitle2,'CLEAR PACKAGES: [COLOR red] ERROR[/COLOR]!')
+	else: dialog.ok(AddonTitle2,'CLEAR PACKAGES: [COLOR red] NONE FOUND[/COLOR]!')
 		
 ################################
 ###### CLEAN UP PACKAGES #######
@@ -461,13 +462,13 @@ def CLEANUP():
 				file_count += len(files)
 				# Count files and give option to delete
 				if file_count > 0:
-					if dialog.yesno("CLEAN UP FILES", str(file_count) + " FILES FOUND", "WOULD YOU LIKE TO DELETE THEM?", nolabel='NO, CANCEL',yeslabel='YES, REMOVE'):
+					if dialog.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]FILE CLEANER[/B][/COLOR]", str(file_count) + " FILES FOUND", "WOULD YOU LIKE TO DELETE THEM?", nolabel='NO, CANCEL',yeslabel='YES, REMOVE'):
 						for f in files:	os.unlink(os.path.join(root, f))
 						for d in dirs: shutil.rmtree(os.path.join(root, d))
-						dialog.ok(AddonTitle,'CLEAN UP FILES: [COLOR green] SUCCESS[/COLOR]!')
-				else: dialog.ok(AddonTitle,'CLEAN UP FILES: [COLOR red]NONE FOUND[/COLOR]!')
-		except: dialog.ok(AddonTitle,'CLEAN UP FILES: [COLOR red] ERROR[/COLOR]!')
-	else: dialog.ok(AddonTitle,'CLEAN UP FILES: [COLOR red] NONE FOUND[/COLOR]!')
+						dialog.ok(AddonTitle3,'CLEAN UP FILES: [COLOR green] SUCCESS[/COLOR]!')
+				else: dialog.ok(AddonTitle3,'CLEAN UP FILES: [COLOR red]NONE FOUND[/COLOR]!')
+		except: dialog.ok(AddonTitle3,'CLEAN UP FILES: [COLOR red] ERROR[/COLOR]!')
+	else: dialog.ok(AddonTitle3,'CLEAN UP FILES: [COLOR red] NONE FOUND[/COLOR]!')
     
 
 
@@ -488,7 +489,7 @@ def deletecachefiles(url):
             if file_count > 0:
     
                 dialog = xbmcgui.Dialog()
-                if dialog.yesno("[COLOR grey2][B]DELETE CACHE FILES[/B][/COLOR]", str(file_count) + " FILES FOUND", "DO YOU WANT TO DELETE THEM?"):
+                if dialog.yesno("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]DELETE CACHE FILES[/B][/COLOR]", str(file_count) + " FILES FOUND", "DO YOU WANT TO DELETE THEM?"):
                 
                     for f in files:
                         try:
@@ -672,7 +673,7 @@ def deletecachefiles(url):
 				
 
     dialog = xbmcgui.Dialog()
-    dialog.ok("[COLOR grey2][B]DELETE CACHE FILES[/B][/COLOR]", "ALL CACHE FILES HAVE BEEN REMOVED","", "BROUGHT TO YOU BY KOBRA WIZARD")
+    dialog.ok("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]DELETE CACHE FILES[/B][/COLOR]", "ALL CACHE FILES HAVE BEEN REMOVED","", "BROUGHT TO YOU BY KOBRA WIZARD")
  
         
 def OPEN_URL(url):
@@ -688,7 +689,7 @@ def OPEN_URL(url):
 ################# LEE @ COMMUNITY BUILDS ######################
 ###############################################################
 def killxbmc():
-    choice = xbmcgui.Dialog().yesno('[COLOR grey2][B]FORCE CLOSE KODI[/B][/COLOR]', 'You are about to close Kodi', 'Would you like to continue?', nolabel='No, Cancel',yeslabel='Yes, Close')
+    choice = xbmcgui.Dialog().yesno('[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]FORCE CLOSE KODI[/B][/COLOR]', 'YOU ARE ABOUT TO FORCE CLOSE KODI', 'WOULD YOU LIKE TO CONTINUE?', nolabel='NO, CANCEL',yeslabel='YES, CLOSE')
     if choice == 0:
         return
     elif choice == 1:
@@ -778,7 +779,7 @@ def platform():
 ############################
 
 def FRESHSTART(params):
-    plugintools.log("freshstart.main_list "+repr(params)); yes_pressed=plugintools.message_yes_no("[COLOR grey2][B]FRESH START[/B][/COLOR]","DO YOU WISH TO RESTORE YOUR KODI CONFIGURATION TO DEFAULT SETTINGS? [COLOR red][B]WARNING [/B][/COLOR]ALL YOUR DATA WILL BE LOST AND NOT RECOVERABLE. [COLOR red][B]PROCEED?[/B][/COLOR]")
+    plugintools.log("freshstart.main_list "+repr(params)); yes_pressed=plugintools.message_yes_no("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]FRESH START[/B][/COLOR]","DO YOU WISH TO RESTORE YOUR KODI CONFIGURATION TO DEFAULT SETTINGS? [COLOR red][B]WARNING [/B][/COLOR]ALL YOUR DATA WILL BE LOST AND NOT RECOVERABLE. [COLOR red][B]PROCEED?[/B][/COLOR]")
     if yes_pressed:
         addonPath=xbmcaddon.Addon(id=AddonID).getAddonInfo('path'); addonPath=xbmc.translatePath(addonPath); 
         xbmcPath=os.path.join(addonPath,"..",".."); xbmcPath=os.path.abspath(xbmcPath); plugintools.log("freshstart.main_list xbmcPath="+xbmcPath); failed=False
@@ -799,7 +800,7 @@ def FRESHSTART(params):
             else: plugintools.log("freshstart.main_list User files partially removed"); plugintools.message("[COLOR grey2][B]FRESH START[/B][/COLOR]","THE PROCESS IS COMPLETE, YOU ARE NOW BACK TO A FRESH KODI CONFIGURATION.","PLEASE REBOOT YOUR SYSTEM OR RESTART KODI FOR THE CHANGES TO BE APPLIED.")
         except: plugintools.message(AddonTitle,"Problem found","Your settings has not been changed"); import traceback; plugintools.log(traceback.format_exc()); plugintools.log("freshstart.main_list NOT removed")
         plugintools.add_item(action="",title="Now Exit Kodi",folder=False)
-    else: plugintools.message("[COLOR grey2][B]FRESH START[/B][/COLOR]","YOUR SETTINGS HAVE NOT BEEN CHANGED."); plugintools.add_item(action="",title="DONE",folder=False)
+    else: plugintools.message("[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]FRESH START[/B][/COLOR]","YOUR SETTINGS HAVE NOT BEEN CHANGED."); plugintools.add_item(action="",title="DONE",folder=False)
 	
                   
 def get_params():
