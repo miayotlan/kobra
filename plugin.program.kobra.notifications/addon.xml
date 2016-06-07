@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.program.kobra.notifications" version="1.0.6"
-       name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]NOTIFICATIONS[/B][/COLOR]" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+<addon id="plugin.program.kobra.notifications" version="1.0.7"
+       name="Notifications" provider-name="tvaddons.ag">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.addon.common" optional="true" />
