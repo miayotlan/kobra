@@ -15,3 +15,4 @@ V-1.0.6 Removed the use of es file explorer. Added apk install code to install a
 V-1.0.7 Cosmetic changes.
 V-1.0.8 Cosmetic changes.
 V-1.0.9 Cosmetic changes.
+V-1.1.0 Changed download location for package files. Added clean up package files option.
