@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.1.0" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.1.1" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
+        <provides>program executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Kobra App Instaler.</summary>
