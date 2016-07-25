@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.program.FelvsWizard" name="Felvs Wizard" version="2.0.8" provider-name="Felv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Felvs Wizard</summary>
+    <description lang="en">Felvs Wizard allows you to get access to the latest Custom Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <<<<<<< HEAD
 <addon id="plugin.program.kobra.notifications" version="1.0.7"
        name="Notifications" provider-name="tvaddons.ag">
@@ -96,6 +111,21 @@
     <summary lang="en">Kobra Wizard</summary>
     <description lang="en">[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]WIZARD[/B][/COLOR] provides easy access to [I]Kobra[/I] builds at the click of a button. The wizard also provides [I]Kobra[/I] custom packs to enable the user to customize the build to their own taste. [I]Kobra[/I] App Installer and [I]Kobra[/I] Tube are also included with the [I]Kobra[/I] Wizard. No addons are distributed with [I]Kobra[/I] builds. You will be asked if you would like to download each addons as you click on main menu and sub menu items.
 Thanks to all Devs who have contributed to this project!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.theGRIFFbuildv3" name="theGRIFFbuildv3" version="1.0.0" provider-name="K33PY">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">theGRIFFbuild wizard</summary>
+    <description lang="en">Buy a bonus ball LOL</description>
+	<website>http://k33pyswizard.co.uk/griff</website>
     <platform>all</platform>
   </extension>
 </addon>
