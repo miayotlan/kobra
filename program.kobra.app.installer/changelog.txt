@@ -17,3 +17,4 @@ V-1.0.8 Cosmetic changes.
 V-1.0.9 Cosmetic changes.
 V-1.1.0 Changed download location for package files. Added clean up package files option.
 V-1.1.1 Added new main menu. Android, Windows, Linux, Contact. 
+V-1-1-2 Added intro video. Added platform visibility to categories.

@@ -130,20 +130,20 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
 </addon>
 
-<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.1.1" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>program executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kobra App Instaler.</summary>
-    <description lang="en">[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]. Browse through the most popular Android apps on the market and install them with ease from within Kodi. The author of this addon takes no responsibilty for any content viewed via these applications or any damage caused by use of of these applications. Big thanks to ][NT3L][G3NC][.</description>
-	<website></website>
-    <platform>all</platform>
-  </extension>
+<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.1.2" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.addon.common" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kobra App Instaler.</summary>
+		<description lang="en">[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]. Browse through the most popular Android apps on the market and install them with ease from within Kodi. The author of this addon takes no responsibilty for any content viewed via these applications or any damage caused by use of of these applications. Big thanks to ][NT3L][G3NC][.</description>
+		<website></website>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.kobra" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]" version="1.0.2" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
