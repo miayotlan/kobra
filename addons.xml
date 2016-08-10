@@ -130,7 +130,7 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
 </addon>
 
-<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.1.3" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.1.4" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.addon.common" />
