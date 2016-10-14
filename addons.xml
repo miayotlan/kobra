@@ -15,13 +15,8 @@
   </extension>
 </addon>
 
-<<<<<<< HEAD
-<addon id="plugin.program.kobra.notifications" version="1.0.7"
+<addon id="plugin.program.kobra.notifications" version="1.0.8"
        name="Notifications" provider-name="tvaddons.ag">
-=======
-<addon id="plugin.program.kobra.notifications" version="1.0.6"
-       name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]NOTIFICATIONS[/B][/COLOR]" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
->>>>>>> 41d6d88dd49bb3c33ffb955493cd0e551b34e92d
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.addon.common" optional="true" />
