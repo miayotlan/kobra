@@ -1,0 +1,5 @@
+FONT Charis SIL 
+SIZE 48 pt
+COLOUR #e1261c
+POSITION Centered, Bottom, up 92
+FX Bevel and Emboss, Stroke

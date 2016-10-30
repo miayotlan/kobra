@@ -1,5 +1,0 @@
-v-1.0.0 Initial Release.
-v-1.0.1 Added Import of dependencies.
-v-1.0.2 GUI changes. 
-
-
