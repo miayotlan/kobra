@@ -1,5 +1,0 @@
-FONT Charis SIL
-SIZE 80 pt
-COLOUR #e1261c
-POSITION (TOP TEXT) Centered, Bottom, up 540
-POSITION (BOTTOM TEXT) Centered, Bottom, up 257
