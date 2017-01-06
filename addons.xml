@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.kobra.notifications" version="2.0.1"
+<addon id="plugin.program.kobra.notifications" version="2.0.2"
        name="Notifications" provider-name="tvaddons.ag">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -32,8 +32,8 @@
   	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>http://forums.tvaddons.ag/forum.php</forum>
-  	<website>http://www.tvaddons.ag/</website>
+  	<forum>http://www.kodicustombuilds.com</forum>
+  	<website>http://www.kodicustombuilds.com</website>
   	<source></source>
   	<email></email>
   </extension>
