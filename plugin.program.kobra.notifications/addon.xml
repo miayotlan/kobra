@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.program.kobra.notifications" version="2.0.3"
+<<<<<<< HEAD
+<addon id="plugin.program.kobra.notifications" version="2.0.2"
+=======
+<addon id="plugin.program.kobra.notifications" version="2.0.2"
+>>>>>>> ceeedabe67a4ca14c65513181bbec6549cbd08be
        name="Notifications" provider-name="tvaddons.ag">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
