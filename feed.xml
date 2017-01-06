@@ -1,12 +1,16 @@
 <? xml version="1.0" ?>
 <rss version="2.0">
 <channel>
-<title>MERRY CHRISTMAS FROM KOBRA BUILDS</title>
-<description></description>
-<link>http://www.yourweb.com</link>
+<title>****** YOU WILL BE A LITTLE BIT OLDER, A LITTLE BIT ROUNDER, BUT STILL NONE THE WISER. HAPPY NEW YEAR FROM KOBRA BUILDS ******</title>
+<description> Enjoy </description>
+<link>http://kodicustombuilds.com</link>
+<item>
+<title>Kobra H24 update version 6.1 is now live. Kobra H24 Non-Adult: Changelog: Changed sub menu items and removed dead links. Fixed touchscreen issue. Added bigger and better navigation arrows to sub menu (helps with touchscreen devices). Added Solid Streamz to sports menu (Android Only). Added sports update to sub menu in Sports. This is for quick updates of the sports section only as these links change all the time. A notification will appear on boot when a sports update is available. Kobra H24 With Adult: Changelog: Added JizzPlanet to adult build. If installation fails please go to ADDONS located on the main menu then CHECK FOR UPDATES in the sub menu. After the check for updates has completed try JizzPlanet again. Please be patient for the menus to rebuild on low-end devices such as firesticks after installation. Please report any problems to KobraCustomBuilds FaceBook or Youtube. Thanks.</title>
+<description> Enjoy </description>
+<link>http://kodicustombuilds.com</link>
 <item>
 <title>No addons are distributed with Kobra builds. You will be asked if you would like to download each addon as you click on main menu and sub menu items.</title>
 <description> Enjoy </description>
-<link>http://www.yourweb.com</link>
+<link>http://kodicustombuilds.com</link>
 </channel>
 </rss>
