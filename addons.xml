@@ -39,22 +39,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.wizards.sleeve" name="[COLOR red][B][I]KOBRA[/I][/COLOR][COLOR grey] WIZARDS SLEEVE[/B][/COLOR]" version="1.0.3" provider-name="[COLOR red][B][I]KOBRA[/I][/COLOR][COLOR grey] BUILDS[/B][/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kobra Wizards Sleeve</summary>
-    <description lang="en">[COLOR red][B][I]KOBRA[/I][/COLOR][COLOR grey] WIZARDS SLEEVE[/B][/COLOR]. Here you will find some of the most popular wizards all in one place. If you would like your wizard adding please get it touch via our Facebook group. [COLOR dodgerblue]https://www.facebook.com/groups/KodiCustomBuilds/[/COLOR]</description>
-	<website>https://www.facebook.com/groups/KodiCustomBuilds/</website>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.kobra.tube"
 	name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]TUBE[/B][/COLOR]"
 	version="1.0.1"
@@ -95,21 +79,6 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.theGRIFFbuildv3" name="theGRIFFbuildv3" version="1.0.0" provider-name="K33PY">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>program executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">theGRIFFbuild wizard</summary>
-    <description lang="en">Buy a bonus ball LOL</description>
-	<website>http://k33pyswizard.co.uk/griff</website>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.1.7" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -127,7 +96,7 @@ Thanks to all Devs who have contributed to this project!</description>
 	</extension>
 </addon>
 
-<addon id="repository.kobra" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]" version="1.0.2" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+<addon id="repository.kobra" name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B]REPOSITORY[/B][/COLOR]" version="1.0.3" provider-name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR]">
 	<extension point="xbmc.addon.repository" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]">
 		<info compressed="false">https://raw.github.com/Barroni1977/kobra/master/addons.xml</info>
 		<checksum>https://raw.github.com/Barroni1977/kobra/master/addons.xml.md5</checksum>
@@ -135,7 +104,7 @@ Thanks to all Devs who have contributed to this project!</description>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Kobra Repository</summary>
-		<description>[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY.[/B][/COLOR] The home of Kobra Builds Add-ons</description>
+		<description>[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B]REPOSITORY.[/B][/COLOR] [COLOR dodgerblue]The home of Kobra Builds Add-ons[/COLOR]</description>
 		<platform>all</platform>
 	</extension>
 </addon>
