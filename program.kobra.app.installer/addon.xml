@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="program.kobra.app.installer" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]" version="1.1.7" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+<addon id="program.kobra.app.installer" name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B] APP INSTALLER[/B][/COLOR]" version="1.1.8" provider-name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.addon.common" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Kobra App Instaler.</summary>
-		<description lang="en">[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]APP INSTALLER[/B][/COLOR]. Browse through the most popular Android apps on the market and install them with ease from within Kodi. The author of this addon takes no responsibilty for any content viewed via these applications or any damage caused by use of of these applications. Big thanks to ][NT3L][G3NC][.</description>
+		<description lang="en">[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B]APP INSTALLER[/B][/COLOR]. Browse through the most popular Android apps on the market and install them with ease from within Kodi. The author of this addon takes no responsibilty for any content viewed via these applications or any damage caused by use of of these applications. Big thanks to ][NT3L][G3NC][.</description>
 		<disclaimer lang="en">Kobra App Installer ( KAI ) does not endorse any content provided by any linked sites, nor does it assume any responsibility for the interpretation or application of any information originating from such content. In addition, Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.In addition, Amazon is a registered trademark. We are not connected to or in any other way affiliated with Amazon or The Amazon Dev team. All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only. All applications provided are for educational use only and we take no responsability for any content viewd via these applications. Use of these names, logos, and brands does not imply endorsement</disclaimer>
 		<website></website>
 		<platform>all</platform>
