@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.kobra.notifications" version="2.0.3"
-       name="Notifications" provider-name="tvaddons.ag">
+<addon id="plugin.program.kobra.notifications" version="2.0.4"
+       name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B] NOTIFICATIONS[/B][/COLOR]" provider-name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.addon.common" optional="true" />
@@ -79,7 +79,7 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
 </addon>
 
-<addon id="program.kobra.app.installer" name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B] APP INSTALLER[/B][/COLOR]" version="1.1.8" provider-name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR]">
+<addon id="program.kobra.app.installer" name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B] APP INSTALLER[/B][/COLOR]" version="1.1.9" provider-name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>

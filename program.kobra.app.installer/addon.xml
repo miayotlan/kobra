@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="program.kobra.app.installer" name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B] APP INSTALLER[/B][/COLOR]" version="1.1.8" provider-name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR]">
+<addon id="program.kobra.app.installer" name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B] APP INSTALLER[/B][/COLOR]" version="1.1.9" provider-name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
