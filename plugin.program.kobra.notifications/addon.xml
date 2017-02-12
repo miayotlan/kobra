@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.program.kobra.notifications" version="2.0.4"
-       name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR ghostwhite] [B] NOTIFICATIONS[/B][/COLOR]" provider-name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR]">
+<addon id="plugin.program.kobra.notifications" version="2.0.5"
+       name="[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite]  NOTIFICATIONS[/COLOR]" provider-name="[COLOR lime][I]KOBRA[/I][/COLOR]">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   	<import addon="script.module.addon.common" optional="true" />
@@ -11,7 +11,7 @@
   <extension point="xbmc.service" library="service.py" start="startup">
   </extension>
   <extension point="xbmc.addon.metadata">
-  	<summary>KOBRA NEWS AND UPDATES</summary>
+  	<summary>[COLOR lime][I]KOBRA[/I][/COLOR] NEWS AND UPDATES</summary>
   	<description>Receive Important Kobra news and update notifications.</description>
   	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
   	<language>en</language>
