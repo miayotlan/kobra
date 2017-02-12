@@ -40,9 +40,9 @@
 </addon>
 
 <addon id="plugin.video.kobra.tube"
-	name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]TUBE[/B][/COLOR]"
-	version="1.0.1"
-	provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+	name="[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] TUBE[/COLOR]"
+	version="1.0.2"
+	provider-name="[COLOR lime][I]KOBRA[/I][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -52,8 +52,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kobra Tube</summary>
-    <description lang="en">[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]TUBE[/B][/COLOR]is the official YouTube channel for Kobra Builds. Here you can find tutorials and preview videos.</description>
+    <summary lang="en">[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] TUBE[/COLOR]</summary>
+    <description lang="en">[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] TUBE[/COLOR]is the official YouTube channel for Kobra Builds. Here you can find tutorials and preview videos.</description>
     <platform>all</platform>
     <forum>https://www.facebook.com/groups/KodiCustomBuilds/</forum>
     <website></website>
