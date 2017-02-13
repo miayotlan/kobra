@@ -79,7 +79,7 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
 </addon>
 
-<addon id="program.kobra.app.installer" name="[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite]  APP INSTALLER[/COLOR]" version="1.2.1" provider-name="[COLOR lime][I]KOBRA[/I][/COLOR]">
+<addon id="program.kobra.app.installer" name="[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite]  APP INSTALLER[/COLOR]" version="1.2.2" provider-name="[COLOR ghostwhite]Provided by[/COLOR] [COLOR lime][I]KOBRA [/I][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
