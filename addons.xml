@@ -60,7 +60,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.kobrawizard" name="[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR dodgerblue] [B]WIZARD[/B][/COLOR]" version="12.1" provider-name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]BUILDS[/B][/COLOR]">
+<addon id="plugin.video.kobrawizard" name="[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] WIZARD[/COLOR]" version="12.2" provider-name="[COLOR ghostwhite]Provided by[/COLOR] [COLOR lime][I]KOBRA [/I][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -72,8 +72,8 @@
         <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kobra Wizard</summary>
-    <description lang="en">[COLOR lime][B][I]KOBRA[/I][/B][/COLOR][COLOR dodgerblue] [B]WIZARD[/B][/COLOR] provides easy access to [I]Kobra[/I] builds at the click of a button. The wizard also provides [I]Kobra[/I] custom packs to enable the user to customize the build to their own taste. [I]Kobra[/I] App Installer and [I]Kobra[/I] Tube are also included with the [I]Kobra[/I] Wizard. No addons are distributed with [I]Kobra[/I] builds. You will be asked if you would like to download each addons as you click on main menu and sub menu items.
+    <summary lang="en">[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] WIZARD[/COLOR]</summary>
+    <description lang="en">[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] WIZARD[/COLOR] provides easy access to [I]Kobra[/I] builds at the click of a button. The wizard also provides [I]Kobra[/I] custom packs to enable the user to customize the build to their own taste. [I]Kobra[/I] App Installer and [I]Kobra[/I] Tube are also included with the [I]Kobra[/I] Wizard. No addons are distributed with [I]Kobra[/I] builds. You will be asked if you would like to download each addons as you click on main menu and sub menu items.
 Thanks to all Devs who have contributed to this project!</description>
     <platform>all</platform>
   </extension>
