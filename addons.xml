@@ -79,7 +79,7 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
 </addon>
 
-<addon id="program.kobra.app.installer" name="[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite]  APP INSTALLER[/COLOR]" version="1.2.3" provider-name="[COLOR ghostwhite]Provided by[/COLOR] [COLOR lime][I]KOBRA [/I][/COLOR]">
+<addon id="program.kobra.app.installer" name="[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite]  INSTALLER[/COLOR]" version="1.2.4" provider-name="[COLOR ghostwhite]Provided by[/COLOR] [COLOR lime][I]KOBRA [/I][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -87,9 +87,9 @@ Thanks to all Devs who have contributed to this project!</description>
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] APP INSTALLER[/COLOR]</summary>
-		<description lang="en">[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] APP INSTALLER[/COLOR]. Browse through the most popular Android apps on the market and install them with ease from within Kodi. The author of this addon takes no responsibilty for any content viewed via these applications or any damage caused by use of of these applications. Big thanks to ][NT3L][G3NC][.</description>
-		<disclaimer lang="en">Kobra App Installer ( KAI ) does not endorse any content provided by any linked sites, nor does it assume any responsibility for the interpretation or application of any information originating from such content. In addition, Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.In addition, Amazon is a registered trademark. We are not connected to or in any other way affiliated with Amazon or The Amazon Dev team. All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only. All applications provided are for educational use only and we take no responsability for any content viewd via these applications. Use of these names, logos, and brands does not imply endorsement</disclaimer>
+		<summary lang="en">[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] INSTALLER[/COLOR]</summary>
+		<description lang="en">[COLOR lime][I]KOBRA[/I][/COLOR][COLOR ghostwhite] INSTALLER[/COLOR] is a third party Kodi add-on. Browse through the most popular Android apps on the market and install them with ease from within Kodi. Browse and download popular roms and rom packs. Browse and install popular emulators. Browse and install adult apps.</description>
+		<disclaimer lang="en">The author of this addon takes no responsibilty for any content viewed via these applications or any damage caused by use of of these applications. Although care is taken when selecting sources for content I strongly recommend you install anti malware and anti virus programs/applications to keep you protected from any malicious downloads. Kobra Installer does not endorse any content provided by any linked sites, nor does it assume any responsibility for the interpretation or application of any information originating from such content. In addition, Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.In addition, Amazon is a registered trademark. We are not connected to or in any other way affiliated with Amazon or The Amazon Dev team. All product names, logos, and brands are property of their respective owners. All company, product and service names used in this add-on are for identification purposes only. All applications provided are for educational use only and we take no responsability for any content viewd via these applications. Use of these names, logos, and brands does not imply endorsement</disclaimer>
 		<website></website>
 		<platform>all</platform>
 	</extension>
