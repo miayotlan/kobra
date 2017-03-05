@@ -29,3 +29,4 @@ V-1.2.4 Removed Windows section (will add again sometime in the future). Added r
 V-1.2.5 Fixed add-on error
 V-1.2.6 Added PSP ROMs
 v-1.2.7 Added games, popular and Miscellaneous apps menus
+v-1.2.8 Removed games and new menus. Need fixing.
