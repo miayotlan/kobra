@@ -60,7 +60,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.kobrawizard" name="[COLOR lime][I]KOBRA [/I][/COLOR][COLOR ghostwhite] WIZARD[/COLOR]" version="13.0" provider-name="[COLOR ghostwhite]Provided by[/COLOR] [COLOR lime][I]KOBRA [/I][/COLOR]">
+<addon id="plugin.video.kobrawizard" name="[COLOR lime][I]KOBRA [/I][/COLOR][COLOR ghostwhite] WIZARD[/COLOR]" version="13.1" provider-name="[COLOR ghostwhite]Provided by[/COLOR] [COLOR lime][I]KOBRA [/I][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.program.kobra.notifications" />
@@ -68,7 +68,7 @@
     <import addon="program.kobra.app.installer" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
+        <provides>video executable</provides>
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
