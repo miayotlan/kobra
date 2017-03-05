@@ -28,3 +28,4 @@ V-1.2.3 Removed Linux section
 V-1.2.4 Removed Windows section (will add again sometime in the future). Added roms section. Changed main menu. Changed some sub menus. Added downloads location to sttings. Cosmetic changes. 
 V-1.2.5 Fixed add-on error
 V-1.2.6 Added PSP ROMs
+v-1.2.7 Added games, popular and Miscellaneous apps menus
